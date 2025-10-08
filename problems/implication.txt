@@ -1,0 +1,15 @@
+# Problem with implications
+# Shows how implications work in probabilistic logic
+
+# If it's raining, the ground is wet
+raining => groundWet [20]
+
+# If the ground is wet, it's slippery
+groundWet => slippery [15]
+
+# It's probably raining
+=> raining [10]
+
+# We prefer it not to be slippery
+=> -slippery [5]
+

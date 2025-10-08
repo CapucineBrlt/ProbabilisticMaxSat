@@ -1,0 +1,9 @@
+# Simple 3-variable problem
+# Variables: X, Y, Z
+# Good for understanding how clauses interact
+
+{X, Y} [10]
+{Y, Z} [8]
+{X, Z} [6]
+{-X, -Y, -Z} [4]
+

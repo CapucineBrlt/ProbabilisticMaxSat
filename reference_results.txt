@@ -1,0 +1,37 @@
+# Reference Results for Probabilistic MaxSAT
+# These are the results achieved by our Hit-and-Run implementation
+# with 10,000 iterations per problem.
+#
+# Your goal is to achieve comparable or better results!
+# Note: Due to randomness, your results may vary slightly.
+
+alien.txt:
+  Weight: 452.37
+
+conflicting.txt:
+  Weight: 15.00
+
+hermione.txt:
+  Weight: 131.61
+
+implication.txt:
+  Weight: 44.83
+
+lion.txt:
+  Weight: 424.15
+
+s2v10c20-1.txt:
+  Weight: 131.29
+
+s2v10c20-2.txt:
+  Weight: 110.63
+
+s2v20c40-1.txt:
+  Weight: 233.39
+
+simple_2vars.txt:
+  Weight: 18.00
+
+simple_3vars.txt:
+  Weight: 28.00
+

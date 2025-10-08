@@ -1,0 +1,9 @@
+# Problem with conflicting clauses
+# Shows difference between binary and probabilistic logic!
+# In binary logic, you can't satisfy both, but in probabilistic logic...
+
+{A} [10]
+{-A} [10]
+{B} [5]
+{-B} [3]
+

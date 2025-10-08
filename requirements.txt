@@ -1,0 +1,14 @@
+# Python Requirements for Probabilistic MaxSAT Lab
+#
+# This lab uses only Python standard library!
+# No external dependencies are required.
+#
+# Tested with Python 3.7+
+#
+# If you want to experiment with advanced features, you might consider:
+# numpy>=1.19.0          # For faster numerical operations
+# matplotlib>=3.3.0      # For creating plots
+# scipy>=1.5.0          # For optimization algorithms
+#
+# But these are NOT required for the basic lab!
+
