@@ -319,6 +319,28 @@ print("  4. Create your own interesting problems!")
 
 print("\n" + "="*70 + "\n")
 
+
+""" Critical Analysis of the Results
+
+Based on your experiments, answer the following questions:
+
+1. How does increasing the number of iterations affect solution quality?
+   Does the improvement justify the additional computation time?
+
+2. Does Hit-and-Run consistently outperform random search on the
+   tested problem? Explain your observations.
+
+3. How might randomness and the number of runs affect your conclusions?
+
+4. What are the main limitations of these experiments? Suggest one
+   additional experiment that could provide stronger evidence.
+
+Support your answers with observations from your results. Distinguish
+between conclusions supported by your experiments and hypotheses that
+would require further testing.
+"""
+
+
 # %% Instructions for Interactive Use
 
 """
@@ -340,4 +362,7 @@ Option 4: Run as script
     1. Run: python3 exploration_notebook.py
     2. See all output at once
 """
+
+
+
 
