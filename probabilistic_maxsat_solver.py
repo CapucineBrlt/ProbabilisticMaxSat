@@ -120,7 +120,6 @@ def hit_and_run(problem, iterations=10000, verbose=False):
         print(f"    Hit-and-Run: {iterations} iterations on {n} variables")
     
     # TODO: Step 1 - Initialize with a random point in [0,1]^n
-    # Hint: Use random.random() for each predicate
     current_assignment = None  # REPLACE THIS
     current_score = 0.0  # REPLACE THIS
     
@@ -137,30 +136,23 @@ def hit_and_run(problem, iterations=10000, verbose=False):
     
     for iteration in range(iterations):
         # TODO: Step 2 - Pick a random direction
-        # Hint: Sample from N(0,1) using random.gauss(0, 1)
-        # You can normalize it (recommended) or not
         direction = None  # REPLACE THIS
         
         # TODO: Step 3 - Find t_min and t_max
-        # For each variable: 0 <= current[var] + t*direction[var] <= 1
-        # This gives you bounds on t
-        # You need to find the intersection of all these constraints
         t_min = None  # REPLACE THIS
         t_max = None  # REPLACE THIS
         
         # TODO: Step 4 - Sample t uniformly from [t_min, t_max]
-        # Use random.uniform(t_min, t_max)
         t = None  # REPLACE THIS
         
         # TODO: Step 5 - Compute new_assignment = current + t*direction
-        # Make sure all values stay in [0,1]
         new_assignment = None  # REPLACE THIS
         
         # TODO: Step 6 - Evaluate new assignment
         new_score = 0.0  # REPLACE THIS
         
         # TODO: Step 7 - Decide whether to move to new point
-        # Basic Hit-and-Run: always move
+        # Basic Hit-and-Run
         # Or you can be smarter: only accept improvements, use simulated annealing, etc.
         
         # TODO: Step 8 - Update best if needed
@@ -172,7 +164,6 @@ def hit_and_run(problem, iterations=10000, verbose=False):
         print(f"    Final best score: {best_score:.2f}")
     
     return best_assignment
-
 
 def hit_and_run_with_restarts(problem, iterations=5000, num_restarts=3):
     """
@@ -206,7 +197,6 @@ def hit_and_run_with_restarts(problem, iterations=5000, num_restarts=3):
     
     print(f"    Final score: {best_score:.2f}")
     return best_assignment
-
 
 # ============================================================================
 # Test and Evaluation Functions
