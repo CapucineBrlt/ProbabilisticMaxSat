@@ -139,6 +139,9 @@ def hit_and_run(problem, iterations=10000, verbose=False):
         direction = None  # REPLACE THIS
         
         # TODO: Step 3 - Find t_min and t_max
+        # For each variable: 0 <= current[var] + t*direction[var] <= 1
+        # This gives you bounds on t
+        # You need to find the intersection of all these constraints
         t_min = None  # REPLACE THIS
         t_max = None  # REPLACE THIS
         
